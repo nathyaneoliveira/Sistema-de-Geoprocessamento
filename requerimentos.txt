@@ -1,0 +1,7 @@
+streamlit
+pymongo[srv]
+pandas
+geopy
+python-dotenv
+folium
+streamlit-folium
