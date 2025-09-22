@@ -13,14 +13,6 @@ db = client['cidades']
 pois = db['pontos_interesse']
 
 
-# Exemplo de documento:
-# {
-# "nome_local": "Praça da Independência",
-# "cidade": "João Pessoa",
-# "coordenadas": {"latitude": -7.11532, "longitude": -34.861},
-# "descricao": "Ponto turístico central da cidade."
-# }
-
 def insert_poi(document: dict) -> str:
     res = pois.insert_one(document)
     return str(res.inserted_id)
