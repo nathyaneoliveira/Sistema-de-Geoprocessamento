@@ -1,4 +1,4 @@
-# 🌍 geo_system  
+#  Sistema de Geoprocessamento
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)  
 ![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow)  
@@ -7,23 +7,21 @@
 
 ---
 
-## 📌 Descrição  
-O **geo_system** é um projeto acadêmico em **Python** voltado para a disciplina de **Geoprocessamento e Sistemas de Informação Geográfica**.  
+##  Descrição  
+O **Sistema de Geoprocessamento** é um projeto acadêmico em **Python** voltado para a disciplina de **Tendências em Ciência da Computação**.  
 
 Este módulo corresponde ao **Checkpoint 01: Cadastro, Consulta e Visualização de Pontos de Interesse (POIs)**.  
 
 O sistema tem como objetivo:  
-- 🗂️ Cadastrar POIs (Pontos de Interesse) em bancos de dados **SQLite** e **MongoDB**  
-- 🔎 Consultar POIs por cidade ou dentro de um raio definido  
-- 🌐 Converter coordenadas entre **DMS ↔ Decimal**  
-- 📏 Calcular distâncias geográficas usando a **fórmula de Haversine**  
-- 🗺️ Exibir os pontos em **mapas interativos** integrados ao **Streamlit**  
-
-O projeto é parte de um sistema acadêmico em desenvolvimento incremental e possui **peso 2** na primeira nota da disciplina.  
+-  Cadastrar POIs (Pontos de Interesse) em bancos de dados **SQLite** e **MongoDB**  
+-  Consultar POIs por cidade ou dentro de um raio definido  
+-  Converter coordenadas entre **DMS ↔ Decimal**  
+-  Calcular distâncias geográficas usando a **fórmula de Haversine**  
+-  Exibir os pontos em **mapas interativos** integrados ao **Streamlit**  
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 ```
 
 │
@@ -45,9 +43,10 @@ O projeto é parte de um sistema acadêmico em desenvolvimento incremental e pos
 
 ---
 
-## ⚙️ Requisitos  
+##  Requisitos  
 - Python **3.9+**  
-- Dependências no `requerimentos.txt`:  
+- Dependências no
+  - `requerimentos.txt`:  
   - `streamlit`  
   - `pymongo`  
   - `sqlite3`  
@@ -64,7 +63,7 @@ pip install -r requerimentos.txt
 
 ---
 
-## ▶️ Compilação e Execução
+##  Compilação e Execução
 
 Para iniciar o sistema:
 
@@ -75,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 Exemplos de Uso
+##  Exemplos de Uso
 
 ### Entrada de teste (cadastro de POI)
 
@@ -99,23 +98,23 @@ Descrição: Ponto turístico central da cidade
 
 ---
 
-## 🤝 Contribuição
+##  Contribuição
 
 Este projeto é desenvolvido no contexto acadêmico.
 Sugestões e melhorias podem ser feitas via **GitHub** ou discutidas em sala de aula.
 
 ---
 
-## 📜 Licença
+##  Licença
 
-Uso acadêmico restrito à disciplina de **Geoprocessamento e SIG**.
+Uso acadêmico restrito à disciplina de **Tendências em Ciência da Computação**.
 
 ---
 
-## 🚀 Estado
+##  Estado
 
-* ✅ Cadastro de POIs funcionando
-* ✅ Consulta por cidade e por raio implementada
-* ✅ Conversão de DMS → Decimal
-* ✅ Exibição em mapa interativo (Streamlit + Folium)
-* 🚧 Próximos módulos incluirão: relatórios em PDF e integração com APIs externas
+*  Cadastro de POIs funcionando
+*  Consulta por cidade e por raio implementada
+*  Conversão de DMS → Decimal
+*  Exibição em mapa interativo (Streamlit + Folium)
+*  Próximos módulos incluirão: relatórios em PDF e integração com APIs externas
