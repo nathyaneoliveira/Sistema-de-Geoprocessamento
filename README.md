@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-Acad%C3%AAmico-red)  
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-ff4b4b?logo=streamlit)  
 
----
+--- 
 
 ##  Descrição  
 O **Sistema de Geoprocessamento** é um projeto acadêmico em **Python** voltado para a disciplina de **Tendências em Ciência da Computação**.  
