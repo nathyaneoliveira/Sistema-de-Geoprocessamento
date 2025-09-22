@@ -23,6 +23,7 @@ O projeto é parte de um sistema acadêmico em desenvolvimento incremental e pos
 ---
 
 ## 📂 Estrutura do Projeto
+
 │
 ├── streamlit_app/
 │ ├── app.py # Interface principal no Streamlit
